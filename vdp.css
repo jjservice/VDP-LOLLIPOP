@@ -573,7 +573,7 @@ label {
         font-weight: bold;
         text-align: center;
         align-content: center;
-        background-image:url(milliondaollarPIC2222.jpg);
+        background-image:url(anuelshampooPic11.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -621,7 +621,7 @@ label {
         font-weight: bold;
         text-align: center;
         align-content: center;
-        background-image:url(BigXactivePic.jpg);
+        background-image:url(carameloRPIC.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -665,54 +665,7 @@ label {
         text-shadow: 2px 2px 10px gold;
         box-shadow: 2px 2px 10px darkmagenta;
       }
-      .navigation .vdp12{
-        font-weight: bold;
-        text-align: center;
-        align-content: center;
-        background-image:url(anuelshampooPic11.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        border: 2px solid gold;
-        box-shadow: 2px 2px 10px darkmagenta;
-        border-radius: 10px;
-        margin: 5px;
-        padding: 50px;
-      }
-      .navigation .vdp12:hover{
-        background-image: url(lollipop_3GIF.gif);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-color: #171a1d;
-        color: darkmagenta;
-        text-shadow: 2px 2px 10px gold;
-        box-shadow: 2px 2px 10px darkmagenta;
-      }
-      .navigation .vdp13{
-        font-weight: bold;
-        text-align: center;
-        align-content: center;
-        background-image:url(carameloRPIC.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        border: 2px solid gold;
-        box-shadow: 2px 2px 10px darkmagenta;
-        border-radius: 10px;
-        margin: 5px;
-        padding: 50px;
-      }
-      .navigation .vdp13:hover{
-        background-image: url(lollipop_3GIF.gif);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-color: #171a1d;
-        color: darkmagenta;
-        text-shadow: 2px 2px 10px gold;
-        box-shadow: 2px 2px 10px darkmagenta;
-      }
+      
       .advideos{
        
         background-color: transparent;
