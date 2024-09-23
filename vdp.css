@@ -173,7 +173,7 @@ input {
 }
 
 h1 {
-    width: 100dvh;
+    width: 100%;
     border: 2px solid gold;
     background-image: url(lollipop_4444GIF.gif);
     background-position: center;
@@ -702,7 +702,7 @@ label {
         margin: 5px;
         border-radius: 20px;
         font-weight: bold;
-        width: 100dvh;
+        width: 100%;
 
        
         
