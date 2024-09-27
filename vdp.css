@@ -683,7 +683,7 @@ label {
         background-size: 20%;
         border: 2px solid gold;
         box-shadow: 2px 2px 10px magenta;
-        border-radius: 10px;
+        border-radius: 20px;
       }
       .h3{
         align-content: center;
@@ -742,12 +742,12 @@ label {
         color: white;
         padding: 40px;
         text-align: center;
-        background-image: url(RedBull-Monster-Brand-Colour-Swap.webp);
+        background-image: url(nikegif.gif);
         background-position: center;
-        background-size: 35%;
+        background-size: 20%;
         border: 2px solid gold;
         box-shadow: 2px 2px 10px magenta;
-        border-radius: 10px;
+        border-radius: 20px;
       }
       
       .details-body{
