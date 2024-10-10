@@ -760,7 +760,7 @@ label {
         background-position: center;
         background-size: 30%;
         background-repeat: no-repeat;
-        background-color: maroon;
+        background-color: rgba(0, 0, 0, 0.527);
         
       
     }
@@ -773,7 +773,7 @@ label {
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
         cursor: pointer;
-        background-color: maroon;
+        background-color: rgba(0, 0, 0, 0.575);
         color: white;
         text-shadow: 2px 2px 4px gold;
         padding: 10px;
