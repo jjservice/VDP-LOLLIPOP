@@ -61,20 +61,7 @@
 
     /* Using flex with the column direction to
     align items in a vertical direction */
-       
-    .navbar3{
-      background-image: url(nikegif.gif);
-      background-position: center;
-      background-size: 10%;
-      border-radius: 20px;
-      box-shadow:2px 6px 6px lightgreen;
-      border:2px solid gold;
-      padding: 20px;
-      bottom: 0%;
-     }
-
-      
-      
+        
       .span1{
         font-size: 50px;
         position: relative;
@@ -198,33 +185,7 @@
       background: linear-gradient(maroon,black,blue);
       border: 2px solid gold;    
     }
-    
-
-    .navigation .team9{
-      font-weight: bold;
-      text-align: center;
-      align-content: center;
-      background-image:url(chrisaquiabajopic.jpg);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      border: 2px solid gold;
-      box-shadow: 2px 2px 10px darkblue;
-      border-radius: 10px;
-      margin: 5px;
-      padding: 50px;
-    }
-    .navigation .team9:hover{
-      background-image: url(lollipop_3GIF.gif);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-color: #171a1d;
-      color: darkblue;
-      text-shadow: 2px 2px 10px gold;
-      box-shadow: 2px 2px 10px maroon;
-    }
- 
+     
     .navigation div ion-icon{
        padding: 20px;
        font-weight: bold;
