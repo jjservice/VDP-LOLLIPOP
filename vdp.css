@@ -3,38 +3,21 @@
   margin: 0;
   padding: 0;
 }
-
-body {
+body{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
   flex-direction: column;
-  border-radius: 20px;
-  background-image: none;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border: 1px solid gold;
-
-}
-body{
   height: 100dvh;
-  position: center;
-  background-color: #151618;
   background-position: center;
   align-items: center;
   text-align: center;
-  border: 1px solid lightgreen;
+  border: 1px solid blue;
   border-radius: 50px;
   font-size: 100%;
-  background-image: url(lollipop_4444GIF.gif);
-  background-size: cover;
-  background-repeat: no-repeat;
-  /* Smoothly transition the background color */
-  transition: background-color .5s;
+  background:linear-gradient(to right,black,black,darkblue,lightgreen,maroon,black,black);
   align-content: center;
-  font-family:'Times New Roman', Times, serif
+  font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
 .gfg {
@@ -44,7 +27,7 @@ body{
   flex-direction: column;
   font-size: 24px;
   font-weight: 600;
-  color: #01940b;
+  color: lightgreen;
   align-items: center;
   
 }
@@ -53,12 +36,12 @@ body{
   max-width: 500px;
   max-height: 300px;
   position: relative;
-  border: 3px solid gold;
+  border: 2px solid blue;
   border-radius: 5px;
-  box-shadow: 4px 6px 10px darkmagenta;
+  box-shadow: 2px 2px 15px maroon;
   border-style: ridge;
   margin: 0 auto;
-  background-image: url(lollipop_4444GIF.gif);
+  background-image: url(lollipop_3GIF.gif);
   background-position: center;
   background-size: cover;
 }
@@ -95,12 +78,12 @@ img {
   padding: 10px;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
-  background-image: url(lollipop_4444GIF.gif);
+  background-image: url(lollipop_3GIF.gif);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 100%;
-  border-bottom: 2px solid darkmagenta;
+  border: 2px solid maroon;
 }
 
 .controls button {
@@ -186,16 +169,12 @@ input {
 .progress-bar {
   height: 100%;
   width: 0;
-  background-color: #0078d4;
+  background-color: darkblue;
   transition: width 0.1s linear;
 }
 
 h1 {
   border: 2px solid gold;
-  background-image: url(lollipop_4444GIF.gif);
-  background-position: center;
-  background-size: cover;
-  background-color: transparent;
   border-radius: 50px;
   margin-bottom: 20px;
   text-shadow: 2px 2px 4px gold;
@@ -211,8 +190,8 @@ label {
 }
 #italic{
   font-style: italic;  
-  color: #bb0c80bd;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: maroon;
+  box-shadow: 0 0 10px gold;
   
  }
 
@@ -224,7 +203,7 @@ label {
       width: 35vh;
       padding: 5px;
       border-radius: 15px;
-      background-image: url(lollipop_4444GIF.gif);
+      background-image: url(lollipop_3GIF.gif);
       background-size: cover;
       background-position: center;
       background-color: transparent;
@@ -240,8 +219,7 @@ label {
       
   }
   #submit:hover{
-     color: gold;
-     text-shadow: 2px 2px 4px darkmagenta;
+     color: maroon;
   }
   #jj{
      font-size: 25px;
@@ -251,12 +229,10 @@ label {
      margin-top: 10px;
      margin-bottom: 10px;
      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
-     text-shadow: 2px 2pX 4px darkmagenta;
+     text-shadow: 2px 2pX 4px maroon;
+     background-color: rgba(0, 0, 0, 0.438);
   }
-  #jj:hover{
-    color: white;
-    text-shadow:2px 2px 4px gold;
-  }
+
   #submit:active:focus-within{
      background-color: gold;
      color: #fff;
@@ -264,7 +240,7 @@ label {
   
   #italic{
      color: gold;
-     text-shadow:2px 2px 6px darkmagenta;
+     text-shadow:2px 2px 6px maroon;
      font-weight: bold;
      
     
@@ -287,10 +263,7 @@ label {
      letter-spacing: 2px;
      
   }
-  h1:hover{
-      color: darkmagenta;
-      text-shadow: 3px 2px 5px gold;
-  }
+
   b p{
      text-shadow: 2px 2px 4px gold;
      color: white;
@@ -300,12 +273,12 @@ label {
       text-align: center;
       color: darkgray;
       margin-right: 10px;
-      text-shadow: 2px 2px 4px magenta;
-      box-shadow: 2px 2px 4px darkmagenta;
+      text-shadow: 2px 2px 4px gold;
+      box-shadow: 2px 2px 4px maroon;
       cursor: pointer;
       transition: color 0.3s ease;
       transition: text-shadow 0.3s ease;
-      border-bottom: 1px solid magenta;
+      border-bottom: 1px solid blue;
       box-shadow: 2px 2px 6px gold;
       border-radius: 10px;
       font-style: oblique;
@@ -313,18 +286,15 @@ label {
   
   }
   p ion-icon{
-      background-image: url(lollipop_4444GIF.gif);
+      background-image: url(lollipop_3GIF.gif);
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
   }
-  p ion-icon:hover{
-      color: darkmagenta;
-      text-shadow: 3px 2px 5px gold;
-  }
+
   h1 ion-icon{
       border-bottom: 2px solid gold;
-      box-shadow: 2px 4px 6px darkmagenta;
+      box-shadow: 2px 4px 6px maroon;
       border-radius: 30px;
       background-image: url(lollipop_3GIF.gif);
       background-position: center;
@@ -336,9 +306,9 @@ label {
       font-size: 16px;
       color: white;
       text-shadow: 2px 2px 4px gold;
-      background-color: rgba(139, 0, 139, 0.507);
-      border-bottom: 2px solid goldenrod;
-      box-shadow: 2px 2px 6px gold;
+      background-color: rgba(0, 0, 0, 0.445);
+      border-bottom: 1px solid blue;
+      box-shadow: 2px 2px 6px lightgreen;
       font-weight: bold;
       font-style: oblique;
       
@@ -348,34 +318,28 @@ label {
       color: white;
       font-weight: bold;
       font-size: 18px;
-      border-bottom: 1px solid gold;
-      box-shadow: 2px 4px 6px darkmagenta;
+      border-bottom: 1px solid blue;
+      box-shadow: 2px 4px 6px lightgreen;
       border-radius: 100%;
       background-color: #151515;
       font-family:Georgia, 'Times New Roman', Times, serif;
   }
   .home-btn2 a button{
       font-size: 25px;
-      color:goldenrod;
-      box-shadow: 2px 4px 10px darkmagenta;
+      color:rgba(255, 217, 0, 0.582);
+      box-shadow: 2px 4px 10px blue;
       border-radius: 10px;
       width: 20%;
-      background-image: url(lollipop_4444GIF.gif);
+      background-image: url(MusicGig.gif);
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
     }
     .home-btn2 a button:hover{
-      background-image: none;
-     color: darkmagenta; 
-     background-image: url(byegif.gif);
-     background-position: center;
-     background-size: cover;
-     background-repeat: no-repeat;
-     text-shadow: 2px 2px 10px gold;
+     color: gold; 
      border: 1px solid gold;
      cursor: pointer;
-     box-shadow: 2px 2px 4px gold;
+     box-shadow: 3px 5px 30px gold;
     
      
    
@@ -383,15 +347,15 @@ label {
     span ion-icon{
       margin-top: 20px;
       font-size: 25px;
-      color: gold;
-      text-shadow: 2px 4px 10px darkmagenta;
-      background-image: url(lollipop_4444GIF.gif);
+      color: white;
+      text-shadow: 2px 4px 10px gold;
+      background-image: url(lollipop_3GIF.gif);
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
       border-radius: 200%;
       width: 20%;
-      box-shadow: 2px 4px 10px darkmagenta;
+      box-shadow: 2px 4px 10px maroon;
       border: 1px solid gold;
       cursor: pointer;
       margin-bottom: 20px;
@@ -405,7 +369,7 @@ label {
       border: 2px solid gold;
       width: 30%;
       padding: 4px;
-      box-shadow: 2px 2px 4px darkmagenta;
+      box-shadow: 2px 2px 4px maroon;
       border-radius: 20px;
       text-align: center;
       background-image: url(lollipop_3GIF.gif);
@@ -428,7 +392,7 @@ label {
       font-size: 18px;
       text-decoration: none;
       border: 2px solid gold;
-      box-shadow: 2px 2px 4px darkmagenta;
+      box-shadow: 2px 2px 4px maroon;
       border-radius: 20px;
       background-image: url(lollipop_3GIF.gif);
       background-position: center;
@@ -450,21 +414,16 @@ label {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      border: 2px solid gold;
-      box-shadow: 2px 2px 10px darkmagenta;
+      border: 2px solid lightblue;
+      box-shadow: 2px 2px 10px lightgreen;
       border-radius: 10px;
       margin: 5px;
       padding: 50px;
     }
     .navigation .vdp2:hover{
-      background-image: url(lollipop_3GIF.gif);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-color: #171a1d;
-      color: darkmagenta;
+      color: darkblue;
       text-shadow: 2px 2px 10px gold;
-      box-shadow: 2px 2px 10px darkmagenta;
+      box-shadow: 2px 2px 10px lightgreen;
     }
     .navigation .vdp3{
       font-weight: bold;
@@ -474,21 +433,16 @@ label {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      border: 2px solid gold;
-      box-shadow: 2px 2px 10px darkmagenta;
+      border: 2px solid lightblue;
+      box-shadow: 2px 2px 10px lightgreen;
       border-radius: 10px;
       margin: 5px;
       padding: 50px;
     }
     .navigation .vdp3:hover{
-      background-image: url(lollipop_3GIF.gif);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-color: #171a1d;
-      color: darkmagenta;
+      color: darkblue;
       text-shadow: 2px 2px 10px gold;
-      box-shadow: 2px 2px 10px darkmagenta;
+      box-shadow: 2px 2px 10px lightgreen;
     }
     
     .navigation .vdp4{
@@ -499,21 +453,16 @@ label {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      border: 2px solid gold;
-      box-shadow: 2px 2px 10px darkmagenta;
+      border: 2px solid lightblue;
+      box-shadow: 2px 2px 10px lightgreen;
       border-radius: 10px;
       margin: 5px;
       padding: 50px;
     }
     .navigation .vdp4:hover{
-      background-image: url(lollipop_3GIF.gif);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-color: #171a1d;
-      color: darkmagenta;
+      color: darkblue;
       text-shadow: 2px 2px 10px gold;
-      box-shadow: 2px 2px 10px darkmagenta;
+      box-shadow: 2px 2px 10px lightgreen;
     }
 
     .navigation .vdp5{
@@ -524,21 +473,16 @@ label {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      border: 2px solid gold;
-      box-shadow: 2px 2px 10px darkmagenta;
+      border: 2px solid lightblue;
+      box-shadow: 2px 2px 10px lightgreen;
       border-radius: 10px;
       margin: 5px;
       padding: 50px;
     }
     .navigation .vdp5:hover{
-      background-image: url(lollipop_3GIF.gif);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-color: #171a1d;
-      color: darkmagenta;
+      color: darkblue;
       text-shadow: 2px 2px 10px gold;
-      box-shadow: 2px 2px 10px darkmagenta;
+      box-shadow: 2px 2px 10px lightgreen;
     }
     .navigation .vdp6{
       font-weight: bold;
@@ -548,21 +492,16 @@ label {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      border: 2px solid gold;
-      box-shadow: 2px 2px 10px darkmagenta;
+      border: 2px solid lightblue;
+      box-shadow: 2px 2px 10px lightgreen;
       border-radius: 10px;
       margin: 5px;
       padding: 50px;
     }
     .navigation .vdp6:hover{
-      background-image: url(lollipop_3GIF.gif);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-color: #171a1d;
-      color: darkmagenta;
+      color: darkblue;
       text-shadow: 2px 2px 10px gold;
-      box-shadow: 2px 2px 10px darkmagenta;
+      box-shadow: 2px 2px 10px lightgreen;
     }
     .navigation .vdp7{
       font-weight: bold;
@@ -572,21 +511,16 @@ label {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      border: 2px solid gold;
-      box-shadow: 2px 2px 10px darkmagenta;
+      border: 2px solid lightblue;
+      box-shadow: 2px 2px 10px lightgreen;
       border-radius: 10px;
       margin: 5px;
       padding: 50px;
     }
     .navigation .vdp7:hover{
-      background-image: url(lollipop_3GIF.gif);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-color: #171a1d;
-      color: darkmagenta;
+      color: darkblue;
       text-shadow: 2px 2px 10px gold;
-      box-shadow: 2px 2px 10px darkmagenta;
+      box-shadow: 2px 2px 10px lightgreen;
     }
     .navigation .vdp8{
       font-weight: bold;
@@ -596,21 +530,16 @@ label {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      border: 2px solid gold;
-      box-shadow: 2px 2px 10px darkmagenta;
+      border: 2px solid lightblue;
+      box-shadow: 2px 2px 10px lightgreen;
       border-radius: 10px;
       margin: 5px;
       padding: 50px;
     }
     .navigation .vdp8:hover{
-      background-image: url(lollipop_3GIF.gif);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-color: #171a1d;
-      color: darkmagenta;
+      color: darkblue;
       text-shadow: 2px 2px 10px gold;
-      box-shadow: 2px 2px 10px darkmagenta;
+      box-shadow: 2px 2px 10px lightgreen;
     }
     .navigation .vdp9{
       font-weight: bold;
@@ -620,21 +549,16 @@ label {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      border: 2px solid gold;
-      box-shadow: 2px 2px 10px darkmagenta;
+      border: 2px solid lightblue;
+      box-shadow: 2px 2px 10px lightgreen;
       border-radius: 10px;
       margin: 5px;
       padding: 50px;
     }
     .navigation .vdp9:hover{
-      background-image: url(lollipop_3GIF.gif);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-color: #171a1d;
-      color: darkmagenta;
+      color: darkblue;
       text-shadow: 2px 2px 10px gold;
-      box-shadow: 2px 2px 10px darkmagenta;
+      box-shadow: 2px 2px 10px lightgreen;
     }
     .navigation .vdp10{
       font-weight: bold;
@@ -644,21 +568,16 @@ label {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      border: 2px solid gold;
-      box-shadow: 2px 2px 10px darkmagenta;
+      border: 2px solid lightblue;
+      box-shadow: 2px 2px 10px lightgreen;
       border-radius: 10px;
       margin: 5px;
       padding: 50px;
     }
     .navigation .vdp10:hover{
-      background-image: url(lollipop_3GIF.gif);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-color: #171a1d;
-      color: darkmagenta;
+      color: darkblue;
       text-shadow: 2px 2px 10px gold;
-      box-shadow: 2px 2px 10px darkmagenta;
+      box-shadow: 2px 2px 10px lightgreen;
     }
     .navigation .vdp11{
       font-weight: bold;
@@ -668,19 +587,14 @@ label {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      border: 2px solid gold;
-      box-shadow: 2px 2px 10px darkmagenta;
+      border: 2px solid lightblue;
+      box-shadow: 2px 2px 10px lightgreen;
       border-radius: 10px;
       margin: 5px;
       padding: 50px;
     }
     .navigation .vdp11:hover{
-      background-image: url(lollipop_3GIF.gif);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-color: #171a1d;
-      color: darkmagenta;
+      color: darkblue;
       text-shadow: 2px 2px 10px gold;
-      box-shadow: 2px 2px 10px darkmagenta;
+      box-shadow: 2px 2px 10px lightgreen;
     }
