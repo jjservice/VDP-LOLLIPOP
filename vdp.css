@@ -222,15 +222,13 @@ label {
      color: maroon;
   }
   #jj{
+    margin-top: 10px;
      font-size: 25px;
      color: gold;
-     outline-color: darkgray;
-     padding: 0%;
-     margin-top: 10px;
-     margin-bottom: 10px;
-     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
-     text-shadow: 2px 2pX 4px maroon;
-     background-color: rgba(0, 0, 0, 0.438);
+     padding: 2px 4px 4px;
+     background-image: url(MusicGig.gif);
+     background-position: center;
+     background-size: 10%;
   }
 
   #submit:active:focus-within{
@@ -271,7 +269,7 @@ label {
   #jj, p ion-icon{
       font-size: 15px;
       text-align: center;
-      color: darkgray;
+      color: gold;
       margin-right: 10px;
       text-shadow: 2px 2px 4px gold;
       box-shadow: 2px 2px 4px maroon;
@@ -598,3 +596,61 @@ label {
       text-shadow: 2px 2px 10px gold;
       box-shadow: 2px 2px 10px lightgreen;
     }
+    #jj{
+      background-color: rgba(0, 0, 0, 0.39);
+    }
+    .artist-name{
+      color: gold;
+      text-shadow: 2px 2px 4px blue;
+      background-color: rgba(0, 0, 0, 0.438);
+      padding: 5px 10px;
+      margin: 5px;
+      border-radius: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+      letter-spacing: 2px;
+      border: 1px solid darkblue;
+      box-shadow: 2px 2px 10px gold;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      position: relative;
+      background-image: url(lollipop_3GIF.gif);
+      background-position: center;
+      background-size: 40%;
+      background-repeat: no-repeat;
+    }
+     .song-details{
+      color: white;
+      text-shadow: 2px 2px 4px gold;
+      letter-spacing: 1px;
+      background-color: rgba(0, 0, 0, 0.438);
+      padding: 10px;
+      margin: 5px;
+      box-shadow: 2px 2px 10px lightgreen;
+      border-radius: 20px;
+     }
+     .footer2{
+      border: 1px solid blue;
+      margin-top: 10px;
+      padding: 30px;
+      background-color: rgba(0, 0, 0, 0.2);
+      background-image: url(nikegifff222222.gif);
+      background-position: center;
+      border-radius: 10px;
+      box-shadow: 2px 2px 10px lightblue;
+
+     }
+     .advideos{
+      border: 1px solid blue;
+      margin-top: 10px;
+      padding: 30px;
+      background-color: rgba(0, 0, 0, 0.2);
+      background-image: url(RedBull-Monster-Brand-Colour-Swap.webp);
+      background-position: center;
+      background-size: 50%;
+      border-radius: 10px;
+      box-shadow: 2px 2px 10px lightblue;
+     }
+    
+
