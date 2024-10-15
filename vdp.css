@@ -221,14 +221,27 @@ label {
      color: maroon;
   }
   #jj{
-    margin-top: 10px;
-     font-size: 25px;
+     margin: 0% auto;
+     justify-content: center;
      color: gold;
-     padding: 2px 4px 4px;
-     background-image: url(MusicGig.gif);
-     background-position: center;
-     background-size: 10%;
+     text-shadow: 2px 2px 4px gold;
+     text-align: center;
+     align-items: center;
+     box-sizing: border-box;
+     display: flex;
+     margin-top: 10px;
+     font-size: 15px;
+     color: rgba(255, 217, 0, 0.61);
+     padding: 2px 4px;
+     background-color: rgba(0, 0, 0, 0.541);
+     box-shadow: 2px 2px 4px maroon;
+     border-radius: 10px;
+    cursor: pointer;
+    border-bottom: 2px solid blue;
+    font-style: oblique;
+     
   }
+
 
   #submit:active:focus-within{
      background-color: gold;
@@ -266,23 +279,7 @@ label {
      text-shadow: 2px 2px 4px gold;
      color: white;
   }
-  #jj, p ion-icon{
-      font-size: 15px;
-      text-align: center;
-      color: gold;
-      margin-right: 10px;
-      text-shadow: 2px 2px 4px gold;
-      box-shadow: 2px 2px 4px maroon;
-      cursor: pointer;
-      transition: color 0.3s ease;
-      transition: text-shadow 0.3s ease;
-      border-bottom: 1px solid blue;
-      box-shadow: 2px 2px 6px gold;
-      border-radius: 10px;
-      font-style: oblique;
     
-  
-  }
   p ion-icon{
       background-image: url(lollipop_3GIF.gif);
       background-position: center;
@@ -595,9 +592,6 @@ label {
       color: darkblue;
       text-shadow: 2px 2px 10px gold;
       box-shadow: 2px 2px 10px lightgreen;
-    }
-    #jj{
-      background-color: rgba(0, 0, 0, 0.39);
     }
     .artist-name{
       color: gold;
